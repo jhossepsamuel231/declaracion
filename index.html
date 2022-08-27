@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de presentacion</title>
+    <link rel="stylesheet" href="css/estilosPresentacion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="cont-tarjeta">
+            <div class="cont-tarjeta__logo">
+                <img src="img/pareja.jpg" alt="">
+                <h1>Bienvenid@</h1>
+                <p>Ingrese tu nombre</p>
+            </div>
+            <div class="cont-tarjeta__iconos">
+                <div class="div1">
+                    <img src="iconos/corazon.svg" alt="corazon">
+                </div>
+                <input 
+                placeholder="Ingrese tu nombre" 
+                type="text" 
+                class="input" 
+                id="nombre" 
+                onkeyup="guardar()">
+            </div>
+            <br> <br> <br> <br>
+            <a class="button" href="principal.html" style="margin-top: 3rem; margin-left: 4rem; text-decoration:none;">
+                entrar
+            </a>
+            <br> <br> <br>
+            <marquee behavior="" direction="">Codificando con Jhossep</marquee>
+        </div>
+    </main>
+    <script src="js/nombre.js"></script>
+</body>
+
+</html>
